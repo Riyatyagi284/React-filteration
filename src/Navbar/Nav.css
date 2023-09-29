@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    width: 100vw;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(28px);
+    box-shadow: 10px -6px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+}
+
+.nav-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+}
